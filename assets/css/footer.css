@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700;900&display=swap');
+.footer {
+    background-color: rgb(110, 194, 177);
+    padding-bottom: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.footer__title {
+    color: hsl(166, 33%, 32%);
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.footer a{
+    color: hsl(167, 28%, 40%);
+}
+.footer a:hover{
+    color: hsl(166, 17%, 34%);
+}

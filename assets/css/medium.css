@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700;900&family=Fraunces:opsz,wght@9..144,600&display=swap');
+
+:root {
+    /* COLORS */
+    /* Primary colors */
+    --Soft-red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --Dark-desaturated-cyan: hsl(167, 40%, 24%);
+    --Dark-blue: hsl(198, 62%, 26%);
+    --Dark-moderate-cyan: hsl(168, 34%, 41%);
+
+    /* Neutral colors */
+    --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --Dark-grayish-blue: hsl(232, 10%, 55%);
+    --Grayish-blue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+}
+
+.testimonials {
+    margin: 10% 17%;
+}
+
+.testimonials img {
+    width: 30%;
+    border-radius: 50%;
+    margin: 5em 0em;
+}
+
+.last-Images img {
+    padding: 0;
+    margin: 0;
+}
+
+.testimonials p {
+    margin: 0em 0em 5em;
+}
+
+h2,
+h3 {
+    font-family: 'Fraunces', serif;
+}
+
+h4,
+p {
+    font-family: 'Barlow', sans-serif;
+}
+
+h2 {
+    font-size: 1.32em;
+    color: var(--Grayish-blue);
+    letter-spacing: 0.2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    color: var(--Grayish-blue);
+    font-size: 1em;
+}
+
+p {
+    color: var(--Very-dark-grayish-blue);
+}
+
+@media screen and (max-width: 450px) {
+    .testimonials {
+        margin: 3em 1.7em 4em;
+    }
+
+    .testimonials img {
+        margin: 3em 0em 2em;
+    }
+
+    .testimonials p {
+        margin: 0em 0em 2em;
+    }
+
+    .milk-bootles {
+        content: url(../images/mobile/image-gallery-milkbottles.jpg);
+    }
+
+    .orange {
+        content: url(../images/mobile/image-gallery-orange.jpg);
+    }
+
+    .cone {
+        content: url(../images/mobile/image-gallery-cone.jpg);
+    }
+
+    .sugar-cubes {
+        content: url(../images/mobile/image-gallery-sugar-cubes.jpg);
+    }
+
+    h2,
+    h3,
+    h4 {
+        font-size: 1.08em;
+    }
+}

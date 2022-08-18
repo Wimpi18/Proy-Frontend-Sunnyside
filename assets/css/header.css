@@ -4,12 +4,20 @@
 /* text colors */
 /* background colors */
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
-h1, h2, p, .nav {
+
+h1,
+h2,
+p,
+.nav {
   margin: 0 6.4%;
 }
 
 @media screen and (min-width: 600px) {
-  h1, h2, p, .nav {
+
+  h1,
+  h2,
+  p,
+  .nav {
     margin: 0 2.77%;
   }
 }
@@ -17,7 +25,7 @@ h1, h2, p, .nav {
 @media screen and (min-width: 1800px) {
   .page-container {
     margin: 0 auto;
-    max-width: 1980px;
+    max-width: 100%;
     overflow: hidden;
   }
 }
@@ -88,7 +96,7 @@ h2 {
   font-size: 2rem;
   font-weight: 900;
   letter-spacing: -0.01438rem;
-  line-height: 2.375rem;
+  line-height: 10rem;
   color: #23303e;
 }
 
@@ -152,7 +160,7 @@ p {
   font-size: 0.9375rem;
   font-weight: 900;
   letter-spacing: -0.00688rem;
-  vertical-align: middle ;
+  vertical-align: middle;
   text-align: center;
   border-radius: 28px;
   display: inline-block;
@@ -203,6 +211,7 @@ p {
     justify-content: space-between;
     margin-top: 2.875rem;
   }
+
   .nav .logo {
     width: 10.625rem;
   }
@@ -217,7 +226,7 @@ p {
   position: absolute;
   transition: 0.8s;
   top: 0;
-  width: 100%;
+  width: 35% !important;
 }
 
 @media screen and (min-width: 600px) {
@@ -331,7 +340,7 @@ p {
 
 @media screen and (min-width: 1000px) {
   .home--one {
-    grid-template-areas: 'B A' 'C D';
+    grid-template-areas: 'B A''C D';
     grid-template-columns: 50vw auto;
     grid-template-rows: auto auto;
   }
@@ -372,6 +381,9 @@ p {
 @media screen and (min-width: 1000px) {
   .home--one h2 {
     margin-left: 10.93vw;
+    font-size: 3rem;
+    line-height: normal;
+    color: hsl(212, 27%, 19%);
   }
 }
 
@@ -427,8 +439,10 @@ p {
   }
 }
 
+
 @media screen and (min-width: 1000px) {
   .home--one--B {
+    align-self: center ;
     grid-area: B;
   }
 }
@@ -467,8 +481,10 @@ p {
 
 .home--two h2 {
   font-family: 'Fraunces', serif;
-  font-size: 1.75rem;
+  font-size: 2rem;
+  color: hsl(212, 27%, 19%);
   font-weight: 700;
+  padding: 10rem 0rem 0rem;
   letter-spacing: -0.0125rem;
   line-height: 2.125rem;
 }
@@ -523,5 +539,3 @@ p {
     width: 50vw;
   }
 }
-
-
